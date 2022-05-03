@@ -1,0 +1,15 @@
+C:\university\web\Referat\Samples\Samples\bin\Debug\net6.0\Samples.exe
+C:\university\web\Referat\Samples\Samples\bin\Debug\net6.0\Samples.deps.json
+C:\university\web\Referat\Samples\Samples\bin\Debug\net6.0\Samples.runtimeconfig.json
+C:\university\web\Referat\Samples\Samples\bin\Debug\net6.0\Samples.dll
+C:\university\web\Referat\Samples\Samples\bin\Debug\net6.0\ref\Samples.dll
+C:\university\web\Referat\Samples\Samples\bin\Debug\net6.0\Samples.pdb
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\Samples.csproj.AssemblyReference.cache
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\Samples.GeneratedMSBuildEditorConfig.editorconfig
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\Samples.AssemblyInfoInputs.cache
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\Samples.AssemblyInfo.cs
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\Samples.csproj.CoreCompileInputs.cache
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\Samples.dll
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\ref\Samples.dll
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\Samples.pdb
+C:\university\web\Referat\Samples\Samples\obj\Debug\net6.0\Samples.genruntimeconfig.cache

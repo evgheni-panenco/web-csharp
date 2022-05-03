@@ -1,0 +1,443 @@
+﻿namespace Lab1
+{
+    partial class MainDialog
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.button1 = new System.Windows.Forms.Button();
+            this.useCustomBoundaries = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lowBound = new System.Windows.Forms.NumericUpDown();
+            this.highBound = new System.Windows.Forms.NumericUpDown();
+            this.label6 = new System.Windows.Forms.Label();
+            this.resultLabel = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.input = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lowBound)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.highBound)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Location = new System.Drawing.Point(138, 19);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(168, 23);
+            this.comboBox1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(34, 15);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Type:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 56);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(93, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Sorting method:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(138, 54);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(168, 23);
+            this.comboBox2.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 93);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 15);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Array size:";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Location = new System.Drawing.Point(354, 19);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(129, 48);
+            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Order";
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(58, 17);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(53, 19);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.Text = "DESC";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Location = new System.Drawing.Point(3, 17);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(47, 19);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "ASC";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(138, 93);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(168, 23);
+            this.numericUpDown1.TabIndex = 8;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.radioButton4);
+            this.groupBox2.Controls.Add(this.radioButton3);
+            this.groupBox2.Location = new System.Drawing.Point(357, 81);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(184, 58);
+            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Population Strategy";
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(3, 35);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(65, 19);
+            this.radioButton4.TabIndex = 1;
+            this.radioButton4.Text = "Manual";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Checked = true;
+            this.radioButton3.Location = new System.Drawing.Point(3, 17);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(51, 19);
+            this.radioButton3.TabIndex = 0;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Auto";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(502, 24);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 43);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Sort";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // useCustomBoundaries
+            // 
+            this.useCustomBoundaries.AutoSize = true;
+            this.useCustomBoundaries.Location = new System.Drawing.Point(20, 132);
+            this.useCustomBoundaries.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.useCustomBoundaries.Name = "useCustomBoundaries";
+            this.useCustomBoundaries.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.useCustomBoundaries.Size = new System.Drawing.Size(150, 19);
+            this.useCustomBoundaries.TabIndex = 11;
+            this.useCustomBoundaries.Text = "Use custom boundaries";
+            this.useCustomBoundaries.UseVisualStyleBackColor = true;
+            this.useCustomBoundaries.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(20, 163);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 15);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "From";
+            this.label4.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(200, 163);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(19, 15);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "To";
+            this.label5.Visible = false;
+            // 
+            // lowBound
+            // 
+            this.lowBound.Location = new System.Drawing.Point(63, 161);
+            this.lowBound.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lowBound.Name = "lowBound";
+            this.lowBound.Size = new System.Drawing.Size(131, 23);
+            this.lowBound.TabIndex = 14;
+            this.lowBound.Visible = false;
+            // 
+            // highBound
+            // 
+            this.highBound.Location = new System.Drawing.Point(227, 161);
+            this.highBound.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.highBound.Name = "highBound";
+            this.highBound.Size = new System.Drawing.Size(131, 23);
+            this.highBound.TabIndex = 15;
+            this.highBound.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(20, 354);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 15);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Result:";
+            // 
+            // resultLabel
+            // 
+            this.resultLabel.AutoSize = true;
+            this.resultLabel.Location = new System.Drawing.Point(20, 379);
+            this.resultLabel.Name = "resultLabel";
+            this.resultLabel.Size = new System.Drawing.Size(104, 15);
+            this.resultLabel.TabIndex = 17;
+            this.resultLabel.Text = "Result placeholder";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(20, 200);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(78, 15);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Manual Input";
+            // 
+            // input
+            // 
+            this.input.Location = new System.Drawing.Point(20, 229);
+            this.input.Name = "input";
+            this.input.Size = new System.Drawing.Size(576, 23);
+            this.input.TabIndex = 19;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(21, 266);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(29, 15);
+            this.label8.TabIndex = 20;
+            this.label8.Text = "Title";
+            this.label8.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(186, 266);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(38, 15);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Pages";
+            this.label9.Visible = false;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(484, 294);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 22;
+            this.button2.Text = "Add";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(565, 294);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 23;
+            this.button3.Text = "Clear";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Visible = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(323, 295);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(155, 23);
+            this.comboBox3.TabIndex = 24;
+            this.comboBox3.Visible = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(20, 295);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(150, 23);
+            this.textBox1.TabIndex = 25;
+            this.textBox1.Visible = false;
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(186, 294);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            9999999,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(120, 23);
+            this.numericUpDown2.TabIndex = 26;
+            this.numericUpDown2.Visible = false;
+            // 
+            // MainDialog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(652, 553);
+            this.Controls.Add(this.numericUpDown2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.input);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.resultLabel);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.highBound);
+            this.Controls.Add(this.lowBound);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.useCustomBoundaries);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.comboBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "MainDialog";
+            this.Text = "Lab1";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lowBound)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.highBound)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private ComboBox comboBox1;
+        private Label label1;
+        private Label label2;
+        private ComboBox comboBox2;
+        private Label label3;
+        private GroupBox groupBox1;
+        private RadioButton radioButton2;
+        private RadioButton radioButton1;
+        private NumericUpDown numericUpDown1;
+        private GroupBox groupBox2;
+        private RadioButton radioButton4;
+        private RadioButton radioButton3;
+        private Button button1;
+        private CheckBox useCustomBoundaries;
+        private Label label4;
+        private Label label5;
+        private NumericUpDown lowBound;
+        private NumericUpDown highBound;
+        private Label label6;
+        private Label resultLabel;
+        private Label label7;
+        private TextBox input;
+        private Label label8;
+        private Label label9;
+        private Button button2;
+        private Button button3;
+        private ComboBox comboBox3;
+        private TextBox textBox1;
+        private NumericUpDown numericUpDown2;
+    }
+}
