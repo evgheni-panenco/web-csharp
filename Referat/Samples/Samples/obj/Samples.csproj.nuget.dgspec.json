@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\university\\web\\Referat\\Samples\\Samples\\Samples.csproj": {}
+    "C:\\sandbox\\web-csharp\\Referat\\Samples\\Samples\\Samples.csproj": {}
   },
   "projects": {
-    "C:\\university\\web\\Referat\\Samples\\Samples\\Samples.csproj": {
+    "C:\\sandbox\\web-csharp\\Referat\\Samples\\Samples\\Samples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\university\\web\\Referat\\Samples\\Samples\\Samples.csproj",
+        "projectUniqueName": "C:\\sandbox\\web-csharp\\Referat\\Samples\\Samples\\Samples.csproj",
         "projectName": "Samples",
-        "projectPath": "C:\\university\\web\\Referat\\Samples\\Samples\\Samples.csproj",
-        "packagesPath": "C:\\Users\\Evgheni Panenco\\.nuget\\packages\\",
-        "outputPath": "C:\\university\\web\\Referat\\Samples\\Samples\\obj\\",
+        "projectPath": "C:\\sandbox\\web-csharp\\Referat\\Samples\\Samples\\Samples.csproj",
+        "packagesPath": "C:\\Users\\epanenco\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\web-csharp\\Referat\\Samples\\Samples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Evgheni Panenco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\epanenco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
